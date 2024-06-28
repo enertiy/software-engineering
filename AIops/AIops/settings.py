@@ -85,7 +85,7 @@ DATABASES = {
             'ENGINE': 'django.db.backends.mysql',
             'NAME': 'software-engine',
             'USER': 'root',
-            'PASSWORD': '123456',
+            'PASSWORD': '031031',
             'HOST': 'localhost',
             'PORT': 3306
     }
@@ -111,7 +111,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
+AUTH_USER_MODEL = 'AIapp.User'
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
