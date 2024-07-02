@@ -30,5 +30,5 @@ urlpatterns = [
     path('login_page.html', login_page, name='login_page_url'),
     path('trace_test/',trace_test,name='trace_test_url'),
     path('show_csv_content/',show_csv_content,name='show_csv_content_url'),
-    path('download/',download_csv)
+    path('download/',download_csv,name='download_url')
 ]

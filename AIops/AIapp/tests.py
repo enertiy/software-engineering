@@ -119,4 +119,3 @@ class AIappTests(TestCase):
         self.assertEqual(request['Content-Disposition'],
                          f'attachment; filename="{os.path.basename("./webankdata/rnvp_result.csv")}"')
         self.assertEqual(request.content, b'mock CSV content')
-
